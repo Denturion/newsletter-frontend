@@ -17,6 +17,7 @@ main {
 }
 
 
+
 header {
     background-color: #1a1a1a;;    
     height: 5rem;
@@ -63,6 +64,37 @@ h1 {
     border-radius: 0;
     margin-top: 1.4rem;
     margin-left: 50rem;
+}
+#turnOnSub, #turnOffSub, #saveNewUser {
+    background-color: #1a1a1a;
+    font-size: 1.5rem;
+    color: #d3d600;
+    cursor: pointer;
+    border-radius: 0;
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+
+#goBack {
+    margin-top: 1rem;
+    background-color: #1a1a1a;
+    font-size: 1.5rem;
+    color: #d3d600;
+    cursor: pointer;
+    border-radius: 0;
+    margin-right: 1rem;
+    padding: 0.5rem;
+
+}
+
+#subBtn{
+    flex-direction: row;
+    align-self: center;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 48vw;
+    padding-bottom: 2rem;
 }
 
 footer {
